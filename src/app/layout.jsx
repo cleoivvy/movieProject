@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Create A Movie App",
+  title: "My movie app",
   description: "A Movie Application",
 };
 

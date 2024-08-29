@@ -14,12 +14,12 @@ export default function MoviePage() {
 function filterSearch(e){
   setSearchMovie(e.target.value)
 }
-const filterLists =  movies.filter(movie => String (movie.title).toLowerCase().includes
-(searchMovies.toLowerCase()) || String (movie.Category).toLowerCase().includes(searchMovies.toLowerCase()) || String (movie.Actors).toLowerCase().includes(searchMovies.toLowerCase()) 
-|| String (movie.Country).toLowerCase().includes(searchMovies.toLowerCase()))
+const filterLists =  movies.filter(movie => String(movie.title).toLowerCase().includes
+(searchMovies.toLowerCase()) || String(movie.category).toLowerCase().includes(searchMovies.toLowerCase()) || String(movie.actors).toLowerCase().includes(searchMovies.toLowerCase()) 
+|| String(movie.country).toLowerCase().includes(searchMovies.toLowerCase()))
 
   const cards = filterLists.length == 0 ? (
-    <h1>Ooops, Not available</h1>
+    <h1 className='text-white text-center text-2xl'>Ooops, Not available</h1>
   ) : filterLists.map((card,index) => (
     <section key={index} className='text-white'>
       <Link href={`/movies/${String(card.title).toLowerCase().split(' ').join('-')}`} title={card.title}>

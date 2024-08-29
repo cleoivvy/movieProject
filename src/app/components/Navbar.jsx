@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
    
     <nav>
-        <ul className="flex justify-around capitalize items-center h-15
+        <ul className="md:flex hidden justify-around capitalize items-center h-36
          bg-slate-950 text-white text-lg">
             <Link href={'/'}>
             <li>Home</li>
@@ -14,11 +14,11 @@ export default function Navbar() {
              <li>About</li>
             </Link>
             
-            <Link href={'/Contact'}>
+            <Link href={'/contact'}>
             <li>Contact</li>
             </Link>
 
-            <Link href={'/'}>
+            <Link href={'/help'}>
             <li>Help</li>
              </Link>
             

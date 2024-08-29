@@ -4,14 +4,14 @@ export const metadata ={
     keywords:"African movies"
 };
 
-
-import React, { Children } from 'react'
-
-export default function Aboutlayout({Children}) {
+export default function AboutLayout({children}) {
   return (
-    <div>
-        <h1>About Page</h1>
-        {Children}
+
+      
+        <div>
+          
+        
+        {children}
         </div>
   )
 }

@@ -13,11 +13,11 @@ const cards = movies.sort((x,y) =>y.rating - x.rating).map((card,index) => (
     <MovieCard title={card.title} type={card.type} rat={card.rating} img={card.img}/>
     </Link>
   </section>
-)).slice(0,10)
+)).slice(0,5)
 
 return (
   <>
-  <div className='grid grid-cols-3 gap-4 px-16 py-32 capitalize'>
+  <div className='grid grid-cols-3 gap-2 px-16 py-24 capitalize'>
     {cards}
    <Link href={'/movies'} className='flex items-center justify-center my-5'>
    <span className='bg-slate-900 text-white rounded-md p-3'>see more....</span>
