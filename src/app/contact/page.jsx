@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div className='bg-slate-800 text-white h-screen' >
-    <h1>
+    <div className='bg-[url(/homeGalaxzy.jpg)] bg-cover text-white h-screen pt-24' >
+    <h1 className='text-4xl'>
        Get in Touch with AfriqueCine
     </h1>
 

@@ -9,7 +9,7 @@ export default function AboutLayout({children}) {
 
       
         <div>
-          
+        
         
         {children}
         </div>

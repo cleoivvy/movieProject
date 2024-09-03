@@ -1,11 +1,19 @@
+"use client"
 import Link from "next/link"
 import MobileNav from "./MobileNav"
+import { useContext } from "react"
+import { SidebarContext } from "../providers"
+import { IoMdCart } from "react-icons/io"
+
+
 export default function Navbar() {
+const {val} = useContext(SidebarContext)
+
   return (
    
-    <nav>
-        <ul className="md:flex hidden justify-around capitalize items-center h-36
-         bg-slate-950 text-white text-lg">
+    <nav className="fixed top-0 w-full">
+        <ul className="md:flex hidden justify-around capitalize items-center h-16
+         bg-black text-white text-lg">
             <Link href={'/'}>
             <li>Home</li>
             </Link>
@@ -20,6 +28,13 @@ export default function Navbar() {
 
             <Link href={'/help'}>
             <li>Help</li>
+             </Link>
+
+            <Link href={'/wishes'}>
+            <li>{val}</li>
+            <p>
+            <IoMdCart />
+            </p>
              </Link>
             
         </ul>

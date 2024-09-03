@@ -50,7 +50,7 @@ export const movies =[
         title: 'Ayanda',
         img: 'ayanda.jpg',
         director: 'Sara Blecher',
-        epilogue: 'In a community vibrant with migrants from across the African Continent, against the backdrop of unspoken love, a young woman tries to navigate a path for herself. But in this world, everything keeps shifting,,everything except the one thing that actually needs to change. Ayanda and the Mechanic is a coming,of,age story of a 21,year,old Afro,hipsters who embarks on a journey of self,discovery trying to keep her father\'s memory alive, when she\'s thrown into a world of greasy overalls, gender stereotypes, and abandoned vintage cars in need of a young woman\'s re,inventive touch who tries to reclaim what would\'ve been, what could\'ve been.',
+        Epilogue: 'In a community vibrant with migrants from across the African Continent, against the backdrop of unspoken love, a young woman tries to navigate a path for herself. But in this world, everything keeps shifting,,everything except the one thing that actually needs to change. Ayanda and the Mechanic is a coming,of,age story of a 21,year,old Afro,hipsters who embarks on a journey of self,discovery trying to keep her father\'s memory alive, when she\'s thrown into a world of greasy overalls, gender stereotypes, and abandoned vintage cars in need of a young woman\'s re,inventive touch who tries to reclaim what would\'ve been, what could\'ve been.',
         DateReleased: '2015',
         Category: 'Drama',
         type: 'PG,13',
@@ -193,7 +193,7 @@ desc: 'Meron Getnet is an Ethiopian actress born in 1990. She rose to fame with 
 
     {
     Country: 'Democratic Republic of Congo',
-    title: 'Félicité',
+    title: 'Felicite',
     img: 'felicite1.jpg',
     Epilogue: 'Filled with pride and a sense of freedom, Félicité is a night singer in a bar in Kinshasa. Her life changed totally when her 14,year,old son had a motorcycle accident. To save him, she embarks on a frenetic race through the streets of an electric Kinshasa, a world of music and dreams. Her path crosses that of Tabu\'s.',
     DateReleased: '2017',
@@ -596,12 +596,12 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
 
     {
         Country: 'Nigeria',
-        title:'Ijé: The Journey',
+        title:'Ije The Journey',
         img: 'the-journey.jpg',
         Director: 'Chineze Anyaene',
         Epilogue: 'Unprecedented in scope, "Ijé" tells a tale of Chioma, a child growing up in the Nigerian countryside, who warns her restless sister Anya about the trappings of the American dream. Ten years later, Anya is accused of killing three men in a Hollywood Hills mansion,,including her record,producer husband. Chioma travels from Nigeria to Los Angeles and, with the help of a young, unproven attorney, discovers that the dark secret her sister wants to keep hidden might be the only thing that can win her freedom.',
         DateReleased: '2010',
-        Category: 'DramaRomance',
+        Category: 'Drama,Romance',
         Type: 'PG,15',
         rating:'8',
         Actors:
