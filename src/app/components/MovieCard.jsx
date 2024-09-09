@@ -4,7 +4,7 @@ import { Rating } from '@mui/material'
 
 
 
-export default function MovieCard({title,Country, type,rat,img,Cat,Dat}) {
+export default function MovieCard({title,Country, type,rat,img}) {
   return (
     
      <div className='bg-[url(/homeGalaxzy.jpg)] h-screen bg-contain  flex flex-col items-center'>
@@ -17,8 +17,7 @@ export default function MovieCard({title,Country, type,rat,img,Cat,Dat}) {
       <h1>{title}</h1>
       <p>{Country}</p>
       <p>{type}</p>
-      <p>{Cat}</p>
-      <p>{Dat}</p>
+      
 
     </div>
   )

@@ -1,3 +1,5 @@
+
+
 export const movies =[
     {
         Country: 'Nigeria',
@@ -6,7 +8,7 @@ export const movies =[
         Epilogue: 'The movie follows the story of Akpos (Ayodeji Richard Makun), a Nigerian man who wins a trip to Jamaica in a raffle. Akpos decides to take his girlfriend, Bola (Funke Akindele), on the trip, hoping to propose to her. However, their trip takes an unexpected turn when they get mixed up in a series of misadventures, including a run-in with a local gangster and a wild party. Meanwhile, Akpos\'s friends Kanayo (Kanayo O. Kanayo) and Efetobore (Efetobore Ayeteni) try to help him win Bola\'s heart. The movie explores themes of love, relationships, and cultural differences.',
     
         DateReleased: 'September 30, 2016',
-    Category: 'Comedy, Romance',
+    category: 'Comedy, Romance',
     Type: 'PG 15',
     rating: '6',
     Actors: [
@@ -52,7 +54,7 @@ export const movies =[
         director: 'Sara Blecher',
         Epilogue: 'In a community vibrant with migrants from across the African Continent, against the backdrop of unspoken love, a young woman tries to navigate a path for herself. But in this world, everything keeps shifting,,everything except the one thing that actually needs to change. Ayanda and the Mechanic is a coming,of,age story of a 21,year,old Afro,hipsters who embarks on a journey of self,discovery trying to keep her father\'s memory alive, when she\'s thrown into a world of greasy overalls, gender stereotypes, and abandoned vintage cars in need of a young woman\'s re,inventive touch who tries to reclaim what would\'ve been, what could\'ve been.',
         DateReleased: '2015',
-        Category: 'Drama',
+        category: 'Drama',
         type: 'PG,13',
         rating: '7',
         Actors:
@@ -80,7 +82,7 @@ desc:'Nthati Moshesh is a South African actress born on August 28, 1969. With a 
     img: 'banana-island-ghost.jpg',
     Epilogue: 'A comedy that tells the story of a ghost who is stuck on earth and must find a way to move on',
     DateReleased: '2017',
-    Category: 'Comedy',
+    category: 'Comedy',
     Type: 'PG 13',
     rating: '7',
     Actors: [{
@@ -108,7 +110,7 @@ desc:'Nthati Moshesh is a South African actress born on August 28, 1969. With a 
         img: 'clash.jpg',
         Epilogue: 'A drama about the lives of people during the Egyptian Revolution',
         DateReleased: '2016',
-        Category:' Drama',
+        category:' Drama',
         Type: 'PG 18',
         rating: '8',
         Actors: [{
@@ -134,7 +136,7 @@ desc:'Nthati Moshesh is a South African actress born on August 28, 1969. With a 
         img: 'days-in-atlanta.png',
         Epilogue: 'The movie follows the story of Akpos (Ayodeji Richard Makun), a Nigerian man who wins a trip to Atlanta, Georgia. Akpos decides to take his girlfriend, Beverly (Rita Dominic), on the trip, hoping to propose to her. However, their trip takes an unexpected turn when they get mixed up in a series of misadventures, including a run-in with a local gangster and a wild party. Meanwhile, Akpos\'s friends, Kanayo (Kanayo O. Kanayo) and Efetobore (Efetobore Ayeteni), try to help him win Beverly\'s heart.',
         DateReleased: 'October 31, 2014',
-        Category: 'Comedy, Romance',
+        category: 'Comedy, Romance',
         Type: 'PG 15',
         rating: '7',
         Actors: [
@@ -170,7 +172,7 @@ desc:'Nthati Moshesh is a South African actress born on August 28, 1969. With a 
         img: 'difret1.jpg',
         Epilogue: 'Three hours outside of Addis Ababa, a bright 14,year,old girl is on her way home from school when men on horses swoop in and kidnap her. The brave Hirut grabs a rifle and tries to escape, but ends up shooting her would,be husband. In her village, the practice of abduction into marriage is common and one of Ethiopia\'s oldest traditions. Meaza Ashenafi, an empowered and tenacious young lawyer, arrives from the city to represent Hirut and argue that she acted in self,defense. Meaza boldly embarks on a collision course between enforcing civil authority and abiding by customary lawRisking the continuing work of her women\'s legal,aid practice to save Hirut\'s life.',
         DateReleased: '2014',
-        Category: 'Drama',
+        category: 'Drama',
         Type: 'PG 15',
         rating: '4',
         Actors: [{
@@ -197,7 +199,7 @@ desc: 'Meron Getnet is an Ethiopian actress born in 1990. She rose to fame with 
     img: 'felicite1.jpg',
     Epilogue: 'Filled with pride and a sense of freedom, Félicité is a night singer in a bar in Kinshasa. Her life changed totally when her 14,year,old son had a motorcycle accident. To save him, she embarks on a frenetic race through the streets of an electric Kinshasa, a world of music and dreams. Her path crosses that of Tabu\'s.',
     DateReleased: '2017',
-    Category: 'Drama',
+    category: 'Drama',
     Type: 'PG 16',
     rating: '7',
     Actors: [{
@@ -223,7 +225,7 @@ desc: 'Gaetan Claudia is a Congolese actor born in 1989 in Kinshasa. He has appe
         Epilogue:  'Sisters Olanna and Kainene return home to 1960s Nigeria, where they soon diverge on different paths. As civil war breaks out, political events loom larger than their differences as they join the fight to establish an independent republic.',
 
         DateReleased: '2013',
-        Category:' Drama, War',
+        category:' Drama, War',
         Type:'PG,18',
         rating:'7',
         Actors:
@@ -251,7 +253,7 @@ desc: 'Gaetan Claudia is a Congolese actor born in 1989 in Kinshasa. He has appe
         img: 'isoken.jpg',
         Epilogue: 'Everyone in the Osayande family worries about Isoken. She\'s beautiful, successful, and surrounded by great family and friends, but she\'s still single at 34,,a serious cause for concern in a culture obsessed with marriage. At her youngest sister\'s wedding, their overbearing mother thrusts her into an orchestrated matchmaking with the ultimate Edo man: Osaze. He is handsome, successful, and from a good family, which makes him perfect Nigerian,husband material. But in an unexpected turn of events, Isoken meets Kevin and falls in love with him, and he just might be what she truly wants in a partner. The only problem: not only is he not an Edo man,,he is Oyinbo (Caucasian). Isoken is a romantic dramedy that explores cultural expectationRacial stereotypes, and the bonds that unite families in touching, dramatic, and comedic ways',
         DateReleased: '2017',
-        Category: 'Romance, Comedy',
+        category: 'Romance, Comedy',
         Type: 'PG 16',
         rating: '8',
         Actors: [
@@ -277,7 +279,7 @@ desc: 'Gaetan Claudia is a Congolese actor born in 1989 in Kinshasa. He has appe
     img: 'king-of-boys.png',
     Epilogue: 'The movie follows the story of Alhaja Eniola Salami (Sola Sobowale), a powerful businesswoman and politician who will stop at nothing to maintain her position. However, her life takes a dramatic turn when her son, Adetola (Reminisce), gets involved in her business dealings.',
     DateReleased: 'October 21, 2018',
-    Category: 'Drama, Thriller',
+    category: 'Drama, Thriller',
     Type: '18',
     rating: '8',
     Actors: [
@@ -304,12 +306,12 @@ desc: 'Gaetan Claudia is a Congolese actor born in 1989 in Kinshasa. He has appe
 
     {
         Country: 'Nigeria', 
-    Title: 'Last Flight to Abuja', 
+    title: 'Last Flight to Abuja', 
     img: 'last-flight-to-abuja.jpg',
     Director: 'Obi Emelonye', 
     Epilogue: 'Mid,air difficulties forces a Nigerian commercial plane into an emergency landing with devastating consequences.', 
     DateReleased: '2012', 
-    Category: 'Drama, Thriller', 
+    category: 'Drama, Thriller', 
     Type: 'PG,15', 
     rating: '6', 
     Actors:
@@ -335,7 +337,7 @@ desc: 'Iyke is a Nigerian actor and entrepreneur born on September 25, 1976, in 
         img: 'much-loved.jpg',
         Epilogue: 'A group of women in Morocco make a living as prostitutes in a culture that is very unforgiving toward women in that profession.',
         DateReleased: '2015',
-        Category: 'Drama',
+        category: 'Drama',
         Type: 'PG 18',
         rating: '9',
         Actors: [{
@@ -361,7 +363,7 @@ desc: 'Halima Karaouane is a Moroccan actress born in 1984 in Morocco. She has e
         img: 'nairobi-half-life.jpg',
         Epilogue: 'A young, aspiring actor from upcountry Kenya dreams of becoming a success in the big city. In pursuit of this and to the chagrin of his brother and parents, he makes his way to Nairobi:the city of opportunity.',
         DateReleased: '2012',
-        Category: 'Crime, Drama',
+        category: 'Crime, Drama',
         Type: 'PG 16',
         rating: '6',
         Actors: [{
@@ -386,7 +388,7 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
         img: 'october1.jpg',
         Epilogue: 'As Nigeria prepares for independence from the British in 1960, a seasoned police detective rushes to find the serial killer slaughtering its native young women',
         DateReleased: '2014',
-        Category: 'Thriller',
+        category: 'Thriller',
         Type:'PG 15',
         rating: '7',
         Actors: [
@@ -408,7 +410,7 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
         img: 'okafors-law.jpg',
         Epilogue: 'Chuks (aka Terminator) is an ardent player with the ladies. He enjoys the attention of women, including girlfriends from the past. He believes that once a man has had a woman, he forever has access to her. When challenged by his friends to see if he can prove the universality of that theory with three ex,girlfriends from his school days within 21 days, he accepts it. Turning on his best charm he sets off to try and prove himself, but his quest brings him to three women, Ifeoma (Ify), Tomi and Ejiro, whose situations in life have changed drastically since school days. This challenge of their various new statuses makes his quest to win the bet more and more insurmountable as he tries to prove the immutability of the age,old law, OKAFOR\'S Law.',
         DateReleased: '2016',
-        Category: 'Comedy',
+        category: 'Comedy',
         Type: 'PG 16',
         rating: '6',
         Actors: [
@@ -437,7 +439,7 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
         Director: 'Lancelot Oduwa Imasuen',
         Epilogue: 'Gina (Omotola Jalade Ekeinde) and Alex (Ramsey Nouah) seem like the ideal couple from the outside, but the urge to always be in control of all aspect of Gina\'s life is threatening their relationship. Alex abuses her emotionally and physically anytime he sees her getting close to the opposite sex.',
         DateReleased: '2010',
-        Category:' DramaRomance',
+        category:' DramaRomance',
         Type: 'PG,15',
         rating: '7',
         Actors:
@@ -464,7 +466,7 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
         img: 'queen-of-katwe.jpg',
         Epilogue:'Living in Katwe, a slum in Kampala, Uganda, is a constant struggle for 10,year,old Phiona, her mother Nakku Harriet, and her younger family members. She and her younger brother help their mother sell maize in the market. She also helps care for her baby brother. Her world changes the day she meets Robert Katende at a missionary program. Katende coaches soccer and teaches children to play chess at a local center. Curious, Phiona visits the center, learns the game, and becomes fascinated with it. She becomes a top player in the group under Katende\'s guidance.',
         DateReleased: '2016',
-        Category: 'Biographical Drama',
+        category: 'Biographical Drama',
         Type: 'PG 16',
         rating: '6',
         Actors: [
@@ -492,7 +494,7 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
         Director: 'Mahmood Ali,Balogun',
         Epilogue: 'The movie follows the story of a young couple, Lola and Uzo, who face challenges in their marriage due to their different backgrounds and personalities. The movie explores themes of love, family, and relationships',
         DateReleased: '2010',
-        Category: 'Romance, Drama',
+        category: 'Romance, Drama',
         Type: 'PG,13',
         rating: '7',
         Actors:
@@ -520,7 +522,7 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
         img: 'the-ceo1.jpg',
         Epilogue: 'Adapted from the Nigerian blockbuster movie, this series takes us into the lives of four women following a nationwide strike that brought the country to a halt. The women have been paid handsomely for their story to be made into a movie, and life has begun to settle down for them. However, one issue after another instills fresh drama into their now,famous lives,,drama that they didn\'t necessarily bargain for. They quickly learn that not all problems can be solved by a strike',
         DateReleased: '2016',
-        Category: 'Drama',
+        category: 'Drama',
         Type: 'PG 13',
         rating: '6',
         Actors: [
@@ -546,7 +548,7 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
         img: 'the-cursed-ones.jpg',
         Epilogue: 'A disillusioned reporter and a youngReformed Pastor attempt to save the life of a child accused of witchcraft by bravely fighting back against corruption and false prophets.', 
         DateReleased: '2015', 
-        Category: 'Drama, Horror', 
+        category: 'Drama, Horror', 
         Type: 'PG 18', 
         rating: '7',
         Actors: [
@@ -571,9 +573,9 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
         title: 'The Figurine', 
         img: 'the-figurine.jpg',
         Director: 'Kunle Afolayan', 
-        Storyline: 'The synopsis of The Figurine (Araromire) shows that it is a story of two buddies and a girl...all down on their luck have their lives changed when one of them discovers Araromire a mysterious figurine in an abandoned shrine which, according to legend bestows seven years of good luck. But no one told them about the next seven years', 
+        Epilogue: 'The synopsis of The Figurine (Araromire) shows that it is a story of two buddies and a girl...all down on their luck have their lives changed when one of them discovers Araromire a mysterious figurine in an abandoned shrine which, according to legend bestows seven years of good luck. But no one told them about the next seven years', 
         DateReleased: '2009', 
-        Category: 'Thriller, Drama', 
+        category: 'Thriller, Drama', 
         Type: 'PG,15', 
         rating: '6', 
         Actors:
@@ -601,7 +603,7 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
         Director: 'Chineze Anyaene',
         Epilogue: 'Unprecedented in scope, "Ijé" tells a tale of Chioma, a child growing up in the Nigerian countryside, who warns her restless sister Anya about the trappings of the American dream. Ten years later, Anya is accused of killing three men in a Hollywood Hills mansion,,including her record,producer husband. Chioma travels from Nigeria to Los Angeles and, with the help of a young, unproven attorney, discovers that the dark secret her sister wants to keep hidden might be the only thing that can win her freedom.',
         DateReleased: '2010',
-        Category: 'Drama,Romance',
+        category: 'Drama,Romance',
         Type: 'PG,15',
         rating:'8',
         Actors:
@@ -626,7 +628,7 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
         Director: 'Kunle Afolayan',
         Epilogue: 'Mary, a fashion designer, and Akin, her arrogant boss, swap their phones by accident in a busy airport and must now carry out each other\'s assignments',
         DateReleased: '2012',
-        Category: 'Romance, Comedy',
+        category: 'Romance, Comedy',
         Type: 'PG,13',
         rating: '8',
         Actors:
@@ -655,7 +657,7 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
         img: 'the-square.jpg',
         Epilogue: 'A group of Egyptian revolutionaries battle leaders and regimesRisking their lives to build a new society of conscience.',
         DateReleased: '2013',
-        Category: 'Documentary',
+        category: 'Documentary',
         Type: 'PG 16',
         rating: '7',
         Actors:[ 
@@ -681,7 +683,7 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
         img: 'the-wound.jpg',
         Epilogue: 'Xolani, a lonely factory worker, travels to the rural mountains with the men of his community to initiate a group of teenage boys into manhood.',
         DateReleased: '2017',
-        Category: 'Drama',
+        category: 'Drama',
         Type: 'PG 18',
         rating: '7',
         Actors: [
@@ -706,9 +708,9 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
         title: 'Timbuktu',
         img: 'timbuktu.jpg',
         Director: 'Abderrahmane Sissako',
-        Storyline: 'Not far from the ancient Malian city of Timbuktu, proud cattle herder Kidane (Ibrahim Ahmed aka Pino) lives peacefully in the dunes with his wife Satima (Toulou Kiki), his daughter Toya (Layla Walet Mohamed), and Issan (Mehdi Ag Mohamed), their twelve,year,old shepherd. In town, the people suffer, powerless, from the regime of terror imposed by the Jihadists determined to control their faith. Music, laughter, cigarettes, even soccer have been banned. The women have become shadows but resist with dignity. Every day, the new improvised courts issue tragic and absurd sentences. Kidane and his family are being spared the chaos that prevails in Timbuktu. But their destiny changes abruptly.',
+        Epilogue: 'Not far from the ancient Malian city of Timbuktu, proud cattle herder Kidane (Ibrahim Ahmed aka Pino) lives peacefully in the dunes with his wife Satima (Toulou Kiki), his daughter Toya (Layla Walet Mohamed), and Issan (Mehdi Ag Mohamed), their twelve,year,old shepherd. In town, the people suffer, powerless, from the regime of terror imposed by the Jihadists determined to control their faith. Music, laughter, cigarettes, even soccer have been banned. The women have become shadows but resist with dignity. Every day, the new improvised courts issue tragic and absurd sentences. Kidane and his family are being spared the chaos that prevails in Timbuktu. But their destiny changes abruptly.',
         DateReleased: '2014',
-        Category: 'Drama',
+        category: 'Drama',
         Type: 'PG,15',
         rating: '8',
         Actors:
@@ -735,9 +737,9 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
         title: 'Tsotsi',
         img: 'tsotsi.jpg',
         Director:' Gavin Hood',
-        Storyline:' A drama about a young man who kidnaps a baby and the events that unfold.',
+        Epilogue:' A drama about a young man who kidnaps a baby and the events that unfold.',
         DateReleased: '2005',
-        Category: 'Drama, Crime',
+        category: 'Drama, Crime',
         Type: 'PG,15',
         rating: '8',
         Actors:
@@ -765,7 +767,7 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
         img: 'wedding-party1.png',
         Epilogue: 'The movie follows the story of Dunni (Adesua Etomi), a Nigerian woman who is getting married to Dozie (Banky Wellington). However, their wedding day takes an unexpected turn when Dunni\'s ex-boyfriend, Nonso (Enyinna Nwigwe), shows up, causing tension and chaos.',
         DateReleased: 'November 26, 2016',
-        Category: 'Comedy, Romance',
+        category: 'Comedy, Romance',
         Type: 'PG 15',
         rating: '8',
         Actors: [
@@ -804,7 +806,7 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
         img: 'wedding-party2.png',
         Epilogue: 'The movie follows the story of Nonso (Enyinna Nwigwe), who has continued his romance with Deirdre (Daniella Down), the bridesmaid from the previous wedding. Nonso proposes to Deirdre and they decide to get married in Dubai. However, their wedding planning is complicated by their different personalities and cultural backgrounds. Meanwhile, Dozie (Banky W) and Dunni (Adesua Etomi) from the first movie are struggling with their own marital issues. The movie explores themes of loveRelationships, and cultural differences.',
         DateReleased: 'December 15, 2017',
-        Category: 'Romance, Comedy',
+        category: 'Romance, Comedy',
         Type: 'PG 13',
         rating: '5',
         Actors:
@@ -841,26 +843,26 @@ desc: 'Olwenya Maina is a Kenyan actor and writer born in 1978 in Nairobi, Kenya
 
 
     {
-        Country: 'Nigeria',
-        title: 'Wives on Strike',
-        img: 'wives-on-strike.jpg',
-        Epilogue: 'Adapted from the Nigerian blockbuster movie, this series takes us into the lives of four women following a nationwide strike that brought the country to a halt. The women have been paid handsomely for their story to be made into a movie, and life has begun to settle down for them. However, one issue after another instills fresh drama into their now,famous lives,,drama that they didn\'t necessarily bargain for. They quickly learn that not all problems can be solved by a strike',
+        Country:'Nigeria',
+        title:'Wives on Strike',
+        img:'wives-on-strike.jpg',
+        Epilogue:'Adapted from the Nigerian blockbuster movie, this series takes us into the lives of four women following a nationwide strike that brought the country to a halt. The women have been paid handsomely for their story to be made into a movie, and life has begun to settle down for them. However, one issue after another instills fresh drama into their now,famous lives,,drama that they didn\'t necessarily bargain for. They quickly learn that not all problems can be solved by a strike',
         DateReleased: '2016',
-        Category: 'Comedy',
+        category: 'Comedy',
         Type: 'PG 16',
         rating: '6',
         Actors: [
             {
-                name: ['Omoni Oboli'],
-                desc: [ 'Omoni Oboli is a Nigerian actress, filmmaker, and producer born on April 22, 1978, in Delta State, Nigeria. She has appeared in various Nigerian productions, including films and TV shows. Oboli has also ventured into directing and producing, making her a talented and versatile figure in the Nigerian entertainment industry.'],
+                name: 'Omoni Oboli',
+                desc: 'Omoni Oboli is a Nigerian actress, filmmaker, and producer born on April 22, 1978, in Delta State, Nigeria. She has appeared in various Nigerian productions, including films and TV shows. Oboli has also ventured into directing and producing, making her a talented and versatile figure in the Nigerian entertainment industry.',
             },
             {
-                name: ['Ufuoma McDermott'],
-                desc: ['McDermott is a Nigerian actress and model born on April 23, 1981, in Benin City, Nigeria. She has appeared in various Nigerian productions, including films and TV shows. McDermott has established herself as a talented actress in the Nigerian entertainment industry.'],
+                name: 'Ufuoma McDermott',
+                desc: 'McDermott is a Nigerian actress and model born on April 23, 1981, in Benin City, Nigeria. She has appeared in various Nigerian productions, including films and TV shows. McDermott has established herself as a talented actress in the Nigerian entertainment industry.',
             },
             {
-                name: ['Uche Jombo'],
-                desc: ['Uche Jombo is a Nigerian actress, producer, and screenwriter born on December 28, 1979, in Abiriba, Nigeria. She has appeared in various Nigerian productions, including films and TV shows. Jombo has also ventured into producing and screenwriting, making her a talented and versatile figure in the Nigerian entertainment industry.'],
+                name: 'Uche Jombo',
+                desc: 'Uche Jombo is a Nigerian actress, producer, and screenwriter born on December 28, 1979, in Abiriba, Nigeria. She has appeared in various Nigerian productions, including films and TV shows. Jombo has also ventured into producing and screenwriting, making her a talented and versatile figure in the Nigerian entertainment industry.',
             }
         ]
 

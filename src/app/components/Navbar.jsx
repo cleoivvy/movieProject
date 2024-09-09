@@ -15,24 +15,24 @@ const {val} = useContext(SidebarContext)
         <ul className="md:flex hidden justify-around capitalize items-center h-16
          bg-black text-white text-lg">
             <Link href={'/'}>
-            <li>Home</li>
+            <li className="hover:text-blue-500">Home</li>
             </Link>
 
             <Link href={'/about'}>
-             <li>About</li>
+             <li className="hover:text-blue-500">About</li>
             </Link>
             
             <Link href={'/contact'}>
-            <li>Contact</li>
+            <li className="hover:text-blue-500">Contact</li>
             </Link>
 
             <Link href={'/help'}>
-            <li>Help</li>
+            <li className="hover:text-blue-500">Help</li>
              </Link>
 
             <Link href={'/wishes'}>
             <li>{val}</li>
-            <p>
+            <p className="hover:text-blue-500">
             <IoMdCart />
             </p>
              </Link>

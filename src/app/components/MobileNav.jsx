@@ -16,7 +16,7 @@ function controlNav(){
   return (
     <nav>
         <ul className='bg-slate-900 flex text-white items-center justify-around md:hidden h-12'>
-            <li>Home</li>
+            <li className="hover:text-blue-500">Home</li>
             <li onClick={controlNav}>
             <GiHamburgerMenu /> 
             </li>
@@ -25,21 +25,21 @@ function controlNav(){
         {open &&
         <ul className="bg-slate-900 flex flex-col justify-around text-white capitalize md:hidden items-center h-72 pr-32">
             <Link href={'/'}>
-            <li >home</li>
+            <li className="hover:text-blue-500">home</li>
             </Link>
 
             <Link href={'/about'}>
-             <li>about</li>
+             <li className="hover:text-blue-500">about</li>
             </Link>
             
             <Link href={'/contact'}>
-            <li>contact</li>
+            <li className="hover:text-blue-500">contact</li>
             </Link>
 
             <Link href={'/help'}>
-            <li>help</li>
+            <li className="hover:text-blue-500">help</li>
              </Link>
-            <p>
+            <p className="hover:text-blue-500">
             <IoMdCart />
             </p>
             

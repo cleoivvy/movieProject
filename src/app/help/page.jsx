@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Help() {
   return (
-    <div className='pt-24 text-white bg-[url(/homeGalaxzy.jpg)] h-[800px] bg-contain'>
+    <div className='pt-24 text-white bg-[url(/homeGalaxzy.jpg)] h-[800px] bg-contain px-28'>
         <h1 className='text-4xl'>
         Help & Support
         </h1>

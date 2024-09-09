@@ -17,7 +17,7 @@ export default function Home() {
     setSearchMovie(e.target.value)
   }
   const filterLists =  movies.filter(movie => String(movie.title).toLowerCase().includes
-  (searchMovies.toLowerCase()) || String(movie.Category).toLowerCase().includes(searchMovies.toLowerCase()) || String(movie.actors).toLowerCase().includes(searchMovies.toLowerCase()) 
+  (searchMovies.toLowerCase()) || String(movie.category).toLowerCase().includes(searchMovies.toLowerCase()) || String(movie.Actors).toLowerCase().includes(searchMovies.toLowerCase()) 
   || String(movie.country).toLowerCase().includes(searchMovies.toLowerCase()))
   
     const cards = filterLists.length == 0 ? (
@@ -51,7 +51,7 @@ export default function Home() {
   {cards}
     </div>
     <Link href={'/movies'} className='flex items-center justify-center my-5'>
-          <span className='bg-black border-solid border-2 border-orange-600 text-white rounded-full p-3'>see more</span>
+          <span className='bg-black border-solid border-2 border-orange-600 text-white rounded-full p-3 hover:text-blue-500'>see more</span>
         </Link>
   </div>
       <div className='text-center text-white text-3xl'>
