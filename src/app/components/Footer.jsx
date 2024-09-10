@@ -16,7 +16,7 @@ export default function Footer() {
             </p>
             <ul>
               <li className='text-white'>
-                <input type="email" name="email" id="email" placeholder='send us an email' className="w-full md:w-1/2 sm:w-full p-4 px-4" />
+                <input type="email" name="email" id="email" placeholder='send us an email' className="w-full md:w-1/2 sm:w-full p-4 px-4 text-black" />
                 <span className='px-2'>Email:info@afriquecine.com</span>
               </li>
               <li className='text-white'>

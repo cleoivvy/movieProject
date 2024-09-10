@@ -3,13 +3,12 @@ import React from 'react'
 import { useContext } from 'react'
 import { SidebarContext } from '../providers'
 import Image from 'next/image'
+import Delete from './Delete'
 
 export default function wishList() {
-const {movieItem, setMovieItem} = useContext(SidebarContext)
+const {movieItem} = useContext(SidebarContext)
 
-const handleDelete = (index) => {
-    setMovieItem(movieItem.filter((x, y) => y - x == index))
-  }
+
 
   return (
     <div className='pt-24 text-white bg-[url(/homeGalaxzy.jpg)] h-[1000px] bg-contain'>
@@ -38,12 +37,7 @@ const handleDelete = (index) => {
                         <td>{movie.epi}</td>
 
                         <td>
-                    <button
-                      className='bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full'
-                      onClick={() => handleDelete(index)}
-                    >
-                      Delete
-                    </button>
+                    <Delete index={index} title ={movie.title}/>
                   </td>
 
                         </tr>

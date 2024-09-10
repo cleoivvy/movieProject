@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Page() {
   return (
     
-    <div className="flex justify-around capitalize items-center h-[1000px]
+    <div className="flex justify-around capitalize items-center md:h-[1200px] sm:h-[2600px]
           bg-[url(/homeGalaxzy.jpg)] bg-cover text-white text-lg px-24">
           
         <div className="flex flex-col gap-10 pt-2 p-4 capitalize  h-screen
@@ -36,14 +36,25 @@ Our Founder
 </p>
 <p>
 Meet  dedicated writer, critic, and film enthusiast who brings her expertise and passion to AfriqueCine.
-- Ojobo Clara, Founder & Editor-in-Chief
-- Ojobo Clara, Lead Writer & Critic
-- Ojobo Clara, Community Manager
-
 </p>  
+
+<ul>
+  <li>
+ Ojobo Clara, Founder & Editor-in-Chief
+  </li>
+
+  <li>
+  Ojobo Clara, Lead Writer & Critic
+  </li>
+
+  <li>
+  Ojobo Clara, Community Manager
+  </li>
+</ul>
+
 </div>
 <Image src ={'/me.jpeg'} alt={'our founder'}
-      width={'300'} height={'500'} className='border-radius object-fit-cover display-block margin-0-auto'/> 
+      width={'300'} height={'500'} className='border-radius object-fit-cover display-block p-7 margin-0-auto transform rotate-90 ml-auto mb-32 '/> 
     </div>
     </div>
   )
