@@ -1,12 +1,11 @@
 "use client"
 import React from 'react'
-import { useContext } from 'react'
 import { SidebarContext } from '../providers'
 import Image from 'next/image'
 import Delete from './Delete'
 
 export default function wishList() {
-const {movieItem} = useContext(SidebarContext)
+const {movieItem} = wishListContext(SidebarContext)
 
 
 
