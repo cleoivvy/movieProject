@@ -7,7 +7,7 @@ export default function Help() {
         Help & Support
         </h1>
 <p>
-Welcome to AfroCine's Help page! Here, you'll find answers to frequently asked questions, troubleshooting tips, and resources to help you navigate our platform.
+Welcome to AfroCine&apos;s Help page! Here, you&apos;ll find answers to frequently asked questions, troubleshooting tips, and resources to help you navigate our platform.
 </p>
 <br/>
 <p className='text-3xl'>

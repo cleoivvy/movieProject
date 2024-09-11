@@ -8,9 +8,9 @@ export default function Contact() {
     </h1>
 
     <p>
-We'd love to hear from you! Whether you're a filmmaker, industry professional, or simply a fan of African cinema, we want to connect with you.
+We&apos;d love to hear from you! Whether you&apos;re a filmmaker, industry professional, or simply a fan of African cinema, we want to connect with you.
 
-Fill out the form below and we'll get back to you shortly.
+Fill out the form below and we&apos;ll get back to you shortly.
     </p>
     
     <form>
