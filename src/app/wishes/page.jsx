@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Delete from './Delete'
 
 export default function wishList() {
-const {movieItem} = useContext(SidebarContext)
+const {val, movieItem} = useContext(SidebarContext)
 
 
 
@@ -44,6 +44,7 @@ const {movieItem} = useContext(SidebarContext)
                     }
                 </tbody>
                 </table>
+                <div>wishList: {val} {movieItem}</div>
                 </div>
         )
     }

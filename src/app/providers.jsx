@@ -29,7 +29,7 @@ const SidebarProviders = ({ children }) => {
   
   useEffect(() => {
     saveToLocalStorage();
-  }, [val, movieItem]);
+  }, [val, movieItem, saveToLocalStorage]);
 
   return (
     <div>
