@@ -15,8 +15,11 @@ export default function Header() {
         <div/>
         <div className="relative z-10 p-4 md:p-6 sm:p-4">
           <p className="pb-40"></p>
-          <p className="text-white text-center text-4xl hover:scale-110 md:text-3xl sm:text-2xl">
-            Welcome To The Galaxy of African Movies
+          <p className="text-white text-center pt-10 hover:scale-110 md:text-6xl sm:text-4xl text-3xl">
+            Welcome To
+          </p>
+          <p className="text-white text-center pt-10 hover:scale-110 md:text-6xl sm:text-4xl text-3xl">
+             The Galaxy of African Movies
           </p>
         </div>
       </div>

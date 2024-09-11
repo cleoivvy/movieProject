@@ -1,16 +1,16 @@
 "use client"
-import React from 'react'
+import React, { useContext } from 'react'
 import { SidebarContext } from '../providers'
 import Image from 'next/image'
 import Delete from './Delete'
 
 export default function wishList() {
-const {movieItem} = wishListContext(SidebarContext)
+const {movieItem} = useContext(SidebarContext)
 
 
 
   return (
-    <div className='pt-24 text-white bg-[url(/homeGalaxzy.jpg)] h-[1000px] bg-contain'>
+    <div className='pt-24 text-white bg-[url(/homeGalaxzy.jpg)] h-[1000px] bg-cover bg-center bg-no-repeat'>
         {movieItem.length == 0 ?
         (
             <h2>Add Movie to Wish List</h2>

@@ -30,14 +30,14 @@ export default function MovieDetails({ params }) {
   </Link>);
 
   return (
-    <div className='bg-[url(/homeGalaxzy.jpg)] bg-cover text-white px-28 pt-20 py-4 text-justify md:h-[2700px] sm:h-[2500px] md:px-12 sm:px-6'>
+    <div className='bg-[url(/homeGalaxzy.jpg)] bg-cover text-white px-28 pt-20 py-4 text-justify md:h-fit-cover sm:h-fit-cover md:px-12 sm:px-6'>
       <h1 className={`${ab.className} text-2xl md:text-xl sm:text-lg`}>{details.title}</h1>
       <p>{details.Epilogue}</p>
 
       <ul>{details.Actors.map((det, index) => (
         <Link href={`/movies/${det.name.split(' ').join('-')}`} key={index}>
           <li>{det.name}
-            <ul className='list-disc py-4 pl-16'>
+            <ul className='list-disc py-4 pl-10'>
               <li>{det.desc}</li>
             </ul>
           </li>

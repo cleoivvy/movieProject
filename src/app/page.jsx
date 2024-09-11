@@ -35,7 +35,7 @@ export default function Home() {
 
     <>
    <Header/>
-  <div className='bg-[url(/homeGalaxzy.jpg)] h-[1500px] bg-contain'>
+  <div className='bg-[url(/homeGalaxzy.jpg)] h-[1500px] bg-cover bg-center bg-no-repeat'>
 
   <h1 className='text-white text-4xl pt-10 flex justify-between px-28'> Top Rated Movie Reviews</h1>
 
