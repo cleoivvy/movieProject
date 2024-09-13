@@ -1,4 +1,8 @@
 import React from 'react';
+import { IoLogoInstagram } from "react-icons/io";
+import { FaFacebookSquare } from "react-icons/fa"
+import { IoLogoWhatsapp } from "react-icons/io";
+import { FaTwitter } from "react-icons/fa"
 
 export default function Footer() {
   return (
@@ -19,6 +23,14 @@ export default function Footer() {
                 <input type="email" name="email" id="email" placeholder='send us an email' className="w-full md:w-1/2 sm:w-full p-4 px-4 text-black" />
                 <span className='px-2'>Email:info@afriquecine.com</span>
               </li>
+              <span className='text-white text-2xl pt-4 pb-5  flex flex-row gap-3'>
+              <li className='hover:text-blue-500'>
+              <IoLogoInstagram />   
+              </li>
+              <li className='hover:text-blue-500'><FaFacebookSquare /></li>
+              <li className='hover:text-blue-500'><IoLogoWhatsapp /></li>
+              <li className='hover:text-blue-500'><FaTwitter /></li>
+              </span>
               <li className='text-white'>
                 Phone: +234020356789
               </li>
