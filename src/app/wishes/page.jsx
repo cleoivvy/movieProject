@@ -6,7 +6,7 @@ import Image from 'next/image'
 import Delete from './Delete'
 import { MdDelete } from "react-icons/md"
 
-export default function wishList() {
+export default function WishList() {
 const {movieItem} = useContext(SidebarContext)
 
   return (
