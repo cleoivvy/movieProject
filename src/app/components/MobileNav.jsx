@@ -3,6 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import Link from 'next/link';
 import { useState } from 'react';
 import { IoMdCart } from "react-icons/io";
+import { IoHome } from "react-icons/io5"
 
 export default function MobileNav() {
   const [open, setOpen] = useState(false);
@@ -14,7 +15,7 @@ export default function MobileNav() {
   return (
     <nav>
       <ul className='bg-slate-900 flex text-white items-center justify-around md:hidden h-12 sm:h-10'>
-        <li className="hover:text-blue-500">Home</li>
+        <li className="hover:text-blue-500"><IoHome /></li>
         <li onClick={controlNav}>
           <GiHamburgerMenu /> 
         </li>
