@@ -4,11 +4,11 @@ import Image from "next/image";
 export default function Page() {
   return (
     <div
-      className="flex justify-around capitalize items-center md:h-[1200px] sm:h-[600px] sm:border-solid-[1px] 
+      className="flex justify-around capitalize items-center h-fit
           bg-[url(/homeGalaxzy.jpg)]  bg-cover bg-center bg-no-repeat  text-white text-lg px-24 "
     >
       <div
-        className="flex flex-col gap-10 pt-2 p-4 capitalize  h-screen
+        className="flex flex-col gap-10 pt-2 p-4 capitalize 
           text-white text-lg"
       >
         <h1 className="text-2xl font-awesome ">Welcome to AfriqueCine</h1>
@@ -53,7 +53,6 @@ export default function Page() {
           height={"500"}
           className="border-radius object-fit-cover display-block flex relative p-7 margin-0-auto transform rotate-90 ml-auto mb-32 "
           />
-          <p>Meet Ojobo Clara</p>
           </div>
       </div>
     </div>

@@ -48,7 +48,7 @@ export default function MovieDetails({ params }) {
         <button onClick={handleMovieAdd} className='bg-slate-950  text-slate-50 p-3 rounded-md hover:text-blue-500' disabled={disable}>{added}</button>
         <h2 className='text-4xl font-bold pt-6 md:text-3xl sm:text-2xl'>Related movies</h2>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 gap-4'>
+        <div className='grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 gap-4 bg-cover bg-center bg-no-repeat h-fit'>
           {relatedCard}
         </div>
       </div>

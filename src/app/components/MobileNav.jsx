@@ -38,6 +38,11 @@ export default function MobileNav() {
         <Link href={'/help'}>
           <li className="hover:text-blue-500">help</li>
         </Link>
+
+        <li>
+        
+        </li>
+
         <p className="hover:text-blue-500">
           <IoMdCart />
         </p>
