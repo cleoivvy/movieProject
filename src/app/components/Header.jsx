@@ -13,7 +13,7 @@ export default function Header() {
           <source src="/galaxzzy.mp4" type="video/mp4"/>
         </video>
         <div/>
-        <div className="relative z-10 p-4 md:p-6 sm:p-4">
+        <div className="relative z-10 text-center p-4 md:p-6 sm:p-4">
           <p className="pb-40"></p>
           <p className="text-white text-center pt-10 hover:scale-110 md:text-6xl sm:text-4xl text-3xl">
             Welcome To

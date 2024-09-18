@@ -42,8 +42,8 @@ const {movieItem} = useContext(SidebarContext)
                       className='bg-red-500 flex items-center flex-row-reverse rounded-sm'
                     >
 
-                        <MdDelete className='font-bold text-3xl mr-2' index={index} title ={movie.title}/>
-                        <Delete className='inline-flex' />
+                        <MdDelete className='font-bold text-3xl mr-2'/>
+                        <Delete onDelete={() => handleDelete(index)} title={movie.title}  className='inline-flex' />
                     </button>
                   </td>
                         </tr>

@@ -50,8 +50,8 @@ export default function Home() {
     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 pt-20'>
   {cards}
     </div>
-    <Link href={'/movies'} className='flex items-center justify-center my-5'>
-          <span className='bg-black border-solid border-2 border-orange-600 text-white rounded-full p-3 pb-4 hover:text-blue-500'>see more</span>
+    <Link href={'/movies'} className='flex items-center justify-center py-5'>
+          <span className='bg-black border-solid border-2 border-orange-600 text-white rounded-full px-12 py-3 hover:text-blue-500'>see more</span>
         </Link>
   </div>
   </>

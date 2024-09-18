@@ -1,12 +1,15 @@
 "use client"
 import { GiHamburgerMenu } from "react-icons/gi";
 import Link from 'next/link';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import { IoMdCart } from "react-icons/io";
 import { IoHome } from "react-icons/io5"
+import { SidebarContext } from "../providers";
 
 export default function MobileNav() {
   const [open, setOpen] = useState(false);
+  const {val} = useContext(SidebarContext)
+
 
   function controlNav() {
     setOpen(!open);
@@ -40,12 +43,14 @@ export default function MobileNav() {
         </Link>
 
         <li>
+        <Link href={'/wishes'}>
         
+            <li>{val}</li>
+            <p className="hover:text-blue-500">
+            <IoMdCart />
+            </p>
+             </Link>
         </li>
-
-        <p className="hover:text-blue-500">
-          <IoMdCart />
-        </p>
       </ul>
       }
     </nav>
