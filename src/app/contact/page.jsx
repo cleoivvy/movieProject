@@ -7,8 +7,8 @@ export default function Contact() {
   <header class="mb-4">
     <h1 class="text-4xl text-gray-800">Get in Touch with AfriqueCine</h1>
     <p class="text-lg text-gray-600">
-      We'd love to hear from you! Whether you're a filmmaker, industry professional, or simply a fan of African cinema, we want to connect with you.
-      Fill out the form below and we'll get back to you shortly.
+      We&apos;d love to hear from you! Whether you&apos;re a filmmaker, industry professional, or simply a fan of African cinema, we want to connect with you.
+      Fill out the form below and we&apos;ll get back to you shortly.
     </p>
   </header>
   <div class="contact-form mb-4">

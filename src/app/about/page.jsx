@@ -8,7 +8,7 @@ export default function Page() {
           bg-[url(/homeGalaxzy.jpg)]  bg-cover bg-center bg-no-repeat  text-white text-lg px-24 pt-24 "
     >
       <div
-        className="flex flex-col gap-10 pt-2 p-4 capitalize 
+        className="flex flex-col gap-10 pt-5 p-4 capitalize 
           text-white text-lg"
       >
         <h1 className="text-2xl font-awesome ">Welcome to AfriqueCine</h1>
