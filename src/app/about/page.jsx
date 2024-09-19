@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <div
       className="flex justify-around capitalize items-center h-fit
-          bg-[url(/homeGalaxzy.jpg)]  bg-cover bg-center bg-no-repeat  text-white text-lg px-24 "
+          bg-[url(/homeGalaxzy.jpg)]  bg-cover bg-center bg-no-repeat  text-white text-lg px-24 pt-24 "
     >
       <div
         className="flex flex-col gap-10 pt-2 p-4 capitalize 

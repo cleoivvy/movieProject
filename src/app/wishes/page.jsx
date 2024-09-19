@@ -10,7 +10,7 @@ export default function WishList() {
 const {movieItem} = useContext(SidebarContext)
 
   return (
-    <div className='pt-24 text-white bg-[url(/homeGalaxzy.jpg)] h-[1000px] bg-cover bg-center bg-no-repeat'>
+    <div className='pt-24 text-white bg-[url(/homeGalaxzy.jpg)] h-[1000px]  w-full bg-cover bg-center bg-no-repeat'>
         {movieItem.length == 0 ?
         (
             <h2>Add Movie to Wish List</h2>
